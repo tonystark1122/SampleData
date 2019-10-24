@@ -1,0 +1,216 @@
+1.is svn access error occured 
+delete svn folder in C:\Users\rahul.thombare\AppData\Roaming\Subversion
+
+2.in some time web application feature not display that time check web content is present in perticular jar or not.
+eurovi flex component error occured.
+brix-erc component error occured.
+
+3.If login is not there then product error is happened then replace two core jars in previous workspace.
+com.pvmsys.brix.app.product.security.provider
+com.pvmsys.brix.app.session.provider
+
+4.oenterprise war on local oracle connection error that time in application properties just change on oracle service as orcl.IASYS.COM
+
+
+
+5.expdp arai_engine25/arai_engine25@orcl dumpfile=arai_engine_updated_backup_21_sept2018.dmp  Version=11.2 directory=Dump_Dir
+impdp BRIX_ERC/BRIX_ERC@orcl dumpfile=BRIX_ERC_FINAL_18Aug2018.dmp directory=Dump_Dir  Version= 12.1 schemas=BRIX_ERC_FINAL remap_schema=BRIX_ERC_FINAL:BRIX_ERC 
+
+
+6.if tomcat log not created then go to logging properties og tomcat and edit it
+
+handlers = 1catalina.org.apache.juli.FileHandler, 2localhost.org.apache.juli.FileHandler, 3manager.org.apache.juli.FileHandler, 4host-manager.org.apache.juli.FileHandler, java.util.logging.ConsoleHandler
+
+.handlers = 1catalina.org.apache.juli.FileHandler   // add that lines 
+; .handlers = 1catalina.org.apache.juli.FileHandler, java.util.logging.ConsoleHandler //comment that line
+
+
+7.if user oracle user expire then logi issue occured then go to oracle prompt and log on sqlplus prompt and alter usetname identified by username;
+
+scjp books kathy sierra pdf download
+
+Mybatis error occured when you untick on configuration web server bridge component just select web server bridge component.
+
+sqlsession service priority set or change as 3 in mybatis error are occured.
+
+if tomcat started error then that error in some change in configuration files.
+
+
+Avalon error : communication with license error  go to avalon.ini and check license error at last.
+
+
+when we create new workspace then entry in pda system that time 
+1.go to clean dump and get bbs blank dump and import it on build machine (172.16.132.37) system(sql dump)
+2.open bbs workspace on raju machine and connect that db to workspace (G:\Ravishankar\Brix_bbs_enhancement\Brix_osgi_22_Feb_17)
+3.run workspace
+4.login to bbs system and add all entries.
+5.make a product.xml
+
+
+mysql.ini file entry add in AL war Deployment time.
+
+query_cache_size=0     
+read_buffer_size=128K
+innodb_buffer_pool_size=1024M
+innodb_log_file_size=343M
+innodb_log_buffer_size=16M
+innodb_thread_concurrency=16
+innodb_lock_wait_timeout=90
+max_connections=140
+
+IF HONDA WORKSPACE RESOURSE COMPONENT UPDATES ARE THERE THEN FIRST RUN ANT BUILD THEN MAKE A JAR
+
+IF HODS GUI COMPONENT UPDATES THEN UPDATE .SWF COMPONENT AND DO NOT CREATE JAR ON THAT COMPONENT COPY THAT SWF COMPONENT AND PASTE OVER 8 COMP 
+ADMIN
+NAVIGATOR
+TESTVIEWER
+COMPONENT PASTE IT ON UNDER LIB FOLDERS
+
+ON ENGINE PERFORMANCE COMPONENT ARE
+ADMIN
+NAVIGATOR
+TESTVIEWER
+TESTVIEWERENGINE
+WORKFLOW
+GRAPHVIEW
+TAGSETTING
+TESTSETTING
+
+https://HJWIN10PVJA04.IASYS.COM:1158/em
+
+
+
+If server Importer updates are there
+component given by
+go to share location G/share/importer/pt-hods importer/com.step4.importer
+ant cmd make jar
+jar is become on classes folder
+copy jar file and paste it on G/pending task/HODS/PTHODS/local/updates/
+login to perticular hods server importer through filezilla
+go to home/avalon/hods/srverImporter/importer
+backup of previous jar
+stop the importer using ./import.sh stop
+then ./import.sh status
+copy updated jar and paste it on lib folder
+./importer.sh start
+
+brixcore pda url  http://172.16.132.60:8082/bbs/bbs.html
+
+If runtime java error are occured then go to properties of comp->project facets->Runtime
+
+
+If Hods Service error is occured then start that service as DEV /or TEST
+1.go to hods/script
+ls=all script display
+./avalon_Hods_Tire_DEV.sh status
+./avalon_Hods_Tire_DEV.sh start
+then service is start 
+
+then ./stop server and again ./start service cmd
+
+
+if in becoming war error occured import null on line 1028:
+then on product.xml comment entry for sac,neethy,commons_logging and  if not add
+<property name="java.code.version"    value = "1.8"/>
+   <property name="java.target.version"  value = "1.8"/>
+   then again start ant mkdev
+   
+   
+On Brix_Erc War deployment Errors are
+copy jar tomcat server jars  on following locations
+C:\Program Files\Apache Software Foundation\Tomcat 6.0\webapps\Brix_Erc\WEB-INF\lib
+add mapping.xml file in new war file
+check plugins of old and new jars if something miss then we add it.
+
+
+on making of war some time import jars error occured then copy jars from plug in dependancy and add to lib folder and on menifest click on runtime
+and add it on class path 
+
+on athos setting add DIRECTORY = file:///$(ATHOS_ROOT)/bin/Win64/ on xatf driver col
+
+for runing eurovi workspace we also copy iasysTeachnology folder on c:/programfile under.
+
+
+if oracle user account is lock use following cmd
+
+alter user <your_username> account unlock;
+
+alter user brixlite5 identified by brixlite5;//user altered
+
+
+#if user are currently connected error
+
+SELECT s.sid, s.serial#, s.status, p.spid 
+  FROM v$session s, v$process p 
+ WHERE s.username = 'MSIL_DEV' --<<<--
+  AND p.addr(+) = s.paddr
+ /
+
+Pass actual SID and SERIAL# values for user TEST then drop user...:
+
+ALTER SYSTEM KILL SESSION '<SID>, <SERIAL>'
+
+
+###if error occurs in between war building then u just check java version if java version is 7 its change as 1.8
+
+
+if connection thread pooling error at time of brixods start just alter user by using following command
+alter user brixlite5 identified by brixlite5; 
+
+alter user BRIX_ERC_FINAL identified by BRIX_ERC_FINAL; 
+
+
+clear browser catche server error occued then check group specification catlog .xml property path .also set runtime enviroment.
+
+
+when tomcat does not stop on that time execute cmd one by one.
+
+pkill -f catalina
+pgrep -fl catalina
+pkill -9 -f catalina
+
+mysql export db
+mysqldump -h hostname-of-your-server -u user -p db_name > db_file.sql
+
+
+catalina log on  linux
+
+tail -f /var/log/tomcat7/catalina.out
+
+
+
+
+PID related ERROR
+
+ sudo netstat -plten |grep java
+ 
+ tcp6       0      0 :::8080                 :::*                    LISTEN      
+1000       30070621    16085/java
+
+kill -9 16085
+
+oracle audit log error less memory conf 
+
+
+$ git push origin --delete <branch> # Git version 1.7.0 or newer 
+
+echo "# DEMO1122" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/tonystark1122/DEMO1122.git
+git push -u origin master
+
+https://github.com/tonystark1122/DEMO1122.git
+
+
+
+
+hods root user uname: root
+			pass:redhat
+
+
+
+
+
+
